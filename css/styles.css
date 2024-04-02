@@ -30,7 +30,7 @@
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
-  --bs-dark: #04400c;
+  --bs-dark: #1AA52D;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -2841,8 +2841,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #04400c;
-  --bs-btn-border-color: #04400c;
+  --bs-btn-bg: #04400C;
+  --bs-btn-border-color: #1AA52D;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #5D5B5B;
   --bs-btn-hover-border-color: #0a58ca;
@@ -10834,6 +10834,9 @@ textarea.form-control-lg {
   font-size: 2rem;
   background-color: #04400C;
 }
+
+
+
 
 form input,
 form select,
