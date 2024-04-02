@@ -399,7 +399,21 @@
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6">
-                
+                        
+                <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/mgegnlpz" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="nom" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@email.com" required="">
+    <label for="telephone">Telephone (Optional)</label>
+    <input type="telephone" name="telephone" id="telephone" placeholder="0606060606">
+    <label for="complaint">Message</label>
+    <textarea rows="6" name="complaint" id="complaint" placeholder="Ecrivez votre message" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
+  </fieldset>
+  <input type="submit" value="Envoyer">
+    </form>
                         
                     </div>
                 </div>
